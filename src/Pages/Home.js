@@ -1,7 +1,7 @@
-import profilePicture from './pictures/profile.jpg';
-import london from './pictures/london.jpg';
-import SocialBar from './Social-bar';
-export default function AboutMe(){
+import profilePicture from '../pictures/profile.jpg';
+import london from '../pictures/london.jpg';
+import SocialBar from '../Social-bar';
+export default function Home(){
   return(
     <div>
       <SocialBar />

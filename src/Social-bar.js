@@ -38,7 +38,22 @@ export default function SocialBar(){
       <nav>
         <div>
           <ul className='flex gap-4 text-center w-full inline'>
-            <li className='inline-block inline mt-2 mb-2 mr-4 ml-4 w-full'>
+          <li className='inline-block mt-2 mb-2 mr-4 ml-4 w-full'>
+              <Link
+              className="pt-2 pb-2 pl-4 pr-4 border rounded-xl"
+              to="/"
+              >
+                Go Back Home!
+              </Link>
+            </li>
+            <li className='inline-block mt-2 mb-2 mr-4 ml-4 w-full'>
+              <Link
+              className="pt-2 pb-2 pl-4 pr-4 border rounded-xl"
+              to="/AboutMe"
+              >More About Me
+              </Link>
+            </li>
+            <li className='inline-block mt-2 mb-2 mr-4 ml-4 w-full'>
               <Link
               className="pt-2 pb-2 pl-4 pr-4 border rounded-xl"
               to="/Projects"
@@ -46,25 +61,10 @@ export default function SocialBar(){
                 Completed Projects
               </Link>
             </li>
-            <li className='inline-block inline mt-2 mb-2 mr-4 ml-4 w-full'>
+            <li className='inline-block mt-2 mb-2 mr-4 ml-4 w-full'>
               <Link
               className="pt-2 pb-2 pl-4 pr-4 border rounded-xl"
-              to="/"
-              >
-                About Me
-              </Link>
-            </li>
-            <li className='inline-block inline mt-2 mb-2 mr-4 ml-4 w-full'>
-              <Link
-              className="pt-2 pb-2 pl-4 pr-4 border rounded-xl"
-              to="/Current"
-              >Current Work
-              </Link>
-            </li>
-            <li className='inline-block inline mt-2 mb-2 mr-4 ml-4 w-full'>
-              <Link
-              className="pt-2 pb-2 pl-4 pr-4 border rounded-xl"
-              to="/AboutThisWebsite"
+              to="/Projects/PersonalWebsite"
               >
                 About This Website
               </Link>
