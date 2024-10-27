@@ -43,10 +43,14 @@ export default function Projects() {
           </Link>
           <Link
             className="pt-2 pb-2 pl-4 pr-4 border shadow-2xl shadow-slate-200/40 rounded-3xl hover:shadow-slate-400/50 hover:shadow-xl hover:scale-105 transition-all duration-300"
+            to="/Projects/GoodreadsClone"
           >
             <h3 className="text-3xl font-bold text-fuchsia-200">
-              blah blah
+              Goodreads Clone
             </h3>
+            <h1>
+              Made a tool for myself
+            </h1>
           </Link>
         </div>
       </body>
