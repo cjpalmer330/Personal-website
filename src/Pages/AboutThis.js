@@ -1,5 +1,6 @@
 import React from 'react';
 import SocialBar from '../Social-bar';
+import ContactBar from '../Contact-bar';
 
 
 void function handleCheckboxChange(id){
@@ -23,6 +24,7 @@ export default function AboutThis(){
           </h3>
         </div>
       </body>
+      <ContactBar />
     </div>
   );
 }

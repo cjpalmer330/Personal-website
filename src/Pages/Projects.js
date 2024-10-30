@@ -1,6 +1,7 @@
 import React from 'react'
 import SocialBar from '../Social-bar';
 import {Link} from 'react-router-dom'
+import ContactBar from '../Contact-bar';
 
 //window.addEventListener('mousemove', e)
 export default function Projects() {
@@ -55,6 +56,7 @@ export default function Projects() {
           </Link>
         </div>
       </body>
+      <ContactBar />
     </div>
   );
 }

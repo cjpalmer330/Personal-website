@@ -1,5 +1,6 @@
 import React from "react";
 import SocialBar from '../Social-bar';
+import ContactBar from "../Contact-bar";
 
 export default function GoodreadsClone(){
   return (
@@ -14,6 +15,7 @@ export default function GoodreadsClone(){
           </h3>
         </div>
       </body>
+      <ContactBar />
     </div>
   );
 }
