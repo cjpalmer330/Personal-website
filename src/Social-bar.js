@@ -54,7 +54,7 @@ export default function SocialBar(){
               className="pt-2 pb-2 pl-4 pr-4 border rounded-xl bg-transparent hover:bg-red-300 hover:transition-all duration-200"
               to="/"
               >
-                Go Back Home!
+                Go Back Home
               </Link>
             </li>
             <li className='inline-block mt-2 mb-2 mr-4 ml-4 w-full'>

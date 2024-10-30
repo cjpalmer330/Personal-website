@@ -13,7 +13,8 @@ export default function Home(){
           <div className="shadow-2xl shadow-slate-200/40 rounded-3xl p-12">
             <h3 className='font-mono text-white font-bold text-center text-2xl'> Welcome to my Website!</h3>
             <h3 className="text-xl">
-              This is some sample text to be in the bio position of my website next to my profile picture I am just rambling some shit so that I can see the spacing and how it looks next to the image and all that shit you know what I mean.
+            &lt;-- I'm this guy!<br></br>
+            I hope you find what you're looking for here and get in touch with me!
             </h3>
           </div>
           <div className='font-mono text-white font-bold text-xl flex justify-center'>
