@@ -6,8 +6,8 @@ export default function AboutThis(){
   return (
     <div className="Project h-screen w-full">
       <SocialBar />
-      <body className="overflow-hidden h-screen bg-gradient-to-b from-red-400 to-fuchsia-900 text-white font-mono">
-      <div className="p-4 border shadow-2xl shadow-slate-200/40 rounded-3xl mt-36 ml-64 mr-64 min-w-96 w-auto">
+      <body className="overflow-hidden h-screen bg-slate-900 text-white font-mono">
+      <div className="p-4 border shadow-2xl shadow-slate-500 bg-slate-700 rounded-3xl mt-36 ml-64 mr-64 min-w-96 w-auto">
           <h1 className='text-3xl font-bold text-fuchsia-200 text-center'
           >About Me</h1>
           <h3 className='text-xl text-white text-left w-min-full'>

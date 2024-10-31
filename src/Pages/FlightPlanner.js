@@ -6,10 +6,10 @@ export default function FlightPlanner(){
   return (
     <div className="Project h-screen">
       <SocialBar />
-      <body className="overflow-hidden h-screen bg-gradient-to-b from-red-400 to-fuchsia-900 text-white font-mono">
+      <body className="overflow-hidden h-screen bg-slate-900 text-white font-mono">
         <div className="p-4 border shadow-2xl shadow-slate-200/40 rounded-3xl mt-36 ml-20 mr-20">
           <h1 className='text-3xl font-bold text-fuchsia-200 text-center'
-          >Flight Planner</h1>
+          >Airline Route Finder</h1>
           <h3 className='text-xl text-white text-left'>
             &emsp; During my first semester here at UTD, one of the classes I took was Data Structures and Algorithms. Which although was harolled as being one of the hardest classes in the degree program, actually ended up being my favorite. I loved my professor and found the idea of learning how these graphs and Algorithms worked to be very fascinating. For our final project we were given the task of finding the three shortest paths sorted by cost and by time for the flight path graph we are given. It has to be able to take in any graph, and within reasonable time complexity output the three fastest results. At first this project stumped me quite a bit, I had fully implemented Dijkstra's algorithm but found getting the second and third fastest flights was a hastle to ensure no repeating.
             <br></br>
