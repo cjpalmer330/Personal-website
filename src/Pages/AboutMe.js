@@ -24,7 +24,7 @@ export default function AboutThis(){
             <h1
             class="col-span-5"
             > Download my Resume!</h1>
-            <a href="test.txt" download class="bg-blue-400 p-4 rounded-xl">Download</a>
+            <a href="resume-v4.pdf" download class="bg-blue-400 p-4 rounded-xl">Download</a>
           </div>
         </div>
       </body>
