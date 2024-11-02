@@ -14,8 +14,8 @@ export default function AboutThis(){
     <div className="Project h-screen">
       <SocialBar />
       <body className="overflow-hidden h-screen bg-slate-900 text-white font-mono">
-        <div className="p-4 border shadow-2xl shadow-slate-500 bg-slate-700 rounded-3xl mt-36 ml-20 mr-20">
-          <h1 className='text-3xl font-bold text-slate-200 text-center'
+        <div className="p-4 border border-blue-400 shadow-2xl shadow-slate-500 bg-slate-700 rounded-3xl mt-36 ml-20 mr-20">
+          <h1 className='text-3xl font-bold text-blue-300 text-center'
           >What is This Website?</h1>
           <h3 className='text-xl text-white text-left'>
             &emsp;&emsp;&emsp;When my Thanksgiving break week started, I was given freedom to choose how I spend my next 11 days, whether to be productive or not.

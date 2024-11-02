@@ -2,7 +2,6 @@ import React from 'react'
 import githubLogo from './pictures/github-mark-white.svg';
 import linkedInLogo from './pictures/linkedIn.svg';
 import codeWarsLogo from './pictures/codeWars.svg';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 export default function SocialBar(){
@@ -11,7 +10,7 @@ export default function SocialBar(){
       <header className="width-max text-xl bg-slate-900 overflow-hidden grid grid-rows-2 pr-4">
       <div className="z-40">
         <div className="w-screen">
-          <h3 className='absolute text-center font-mono font-bold p-8 whitespace-nowrap text-white text-5xl align-middle'>Christopher Palmer</h3>
+          <h3 className='absolute text-center font-mono font-bold p-8 whitespace-nowrap text-blue-300 text-5xl align-middle'>Christopher Palmer</h3>
         </div>
         <div alt="social Links" className="w-screen pl-2 py-2 pr-4 inset-0">
         <div className=' float-right p-2'>
@@ -51,7 +50,7 @@ export default function SocialBar(){
           <ul className='flex gap-4 text-center w-full inline'>
           <li className='inline-block mt-2 mb-2 mr-4 ml-4 w-full'>
               <Link
-              className="pt-2 pb-2 pl-4 pr-4 border rounded-xl bg-transparent hover:bg-slate-700 hover:transition-all duration-200 text-white"
+              className="pt-2 pb-2 pl-4 pr-4 border border-blue-400 rounded-xl bg-transparent hover:bg-slate-700 hover:transition-all duration-200 text-white"
               to="/"
               >
                 Go Back Home
@@ -59,22 +58,22 @@ export default function SocialBar(){
             </li>
             <li className='inline-block mt-2 mb-2 mr-4 ml-4 w-full'>
               <Link
-              className="pt-2 pb-2 pl-4 pr-4 border rounded-xl bg-transparent hover:bg-slate-700 hover:transition-all duration-200 font-sans text-white"
+              className="pt-2 pb-2 pl-4 pr-4 border border-blue-400 rounded-xl bg-transparent hover:bg-slate-700 hover:transition-all duration-200 font-sans text-white"
               to="/AboutMe"
               >More About Me
               </Link>
             </li>
             <li className='inline-block mt-2 mb-2 mr-4 ml-4 w-full'>
               <Link
-              className="bg-transparent hover:bg-slate-700 hover:transition-all duration-200 pt-2 pb-2 pl-4 pr-4 border rounded-xl text-white font-sans"
+              className="bg-transparent hover:bg-slate-700 hover:transition-all duration-200 pt-2 pb-2 pl-4 pr-4 border border-blue-400 rounded-xl text-white font-sans"
               to="/Projects"
               >
-                Completed Projects
+                Projects
               </Link>
             </li>
             <li className='inline-block mt-2 mb-2 mr-4 ml-4 w-full'>
               <Link
-              className="pt-2 pb-2 pl-4 pr-4 border rounded-xl bg-transparent hover:bg-slate-700 hover:transition-all duration-200 text-white"
+              className="pt-2 pb-2 pl-4 pr-4 border border-blue-400 rounded-xl bg-transparent hover:bg-slate-700 hover:transition-all duration-200 text-white"
               to="/Projects/PersonalWebsite"
               >
                 About This Website
