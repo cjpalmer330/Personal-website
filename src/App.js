@@ -6,6 +6,7 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home';
 import AboutMe from './Pages/AboutMe';
 import FlightPlanner from './Pages/FlightPlanner';
+import Resume from './Pages/resume';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path="/Projects/PersonalWebsite" element={<AboutThis />}/>
       <Route path="/Projects/GoodreadsClone" element={<GoodreadsClone />}/>
       <Route path="/Projects/FlightPlanner" element={<FlightPlanner />}/>
+      <Route path="/Resume" element={<Resume/>}/>
       <Route path="/*" element={<NotFoundPage />} />
     </Routes>
   );

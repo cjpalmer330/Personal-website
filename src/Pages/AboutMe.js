@@ -1,12 +1,13 @@
 import React from 'react';
 import SocialBar from '../Social-bar';
 import ContactBar from '../Contact-bar';
+import { Link } from "react-router-dom";
 
 export default function AboutThis(){
   return (
     <div className="Project h-screen w-full">
       <SocialBar />
-      <body className="overflow-hidden h-auto bg-slate-900 text-white font-mono grid-rows-2">
+      <body className="overflow-hidden h-full bg-slate-900 text-white font-mono grid-rows-2">
         <div className="p-4 border border-blue-400 shadow-2xl shadow-slate-500 bg-slate-700 rounded-3xl mt-16 ml-40 mr-40 min-w-96 w-auto row-span-1">
           <h1 className='text-3xl font-bold text-blue-300 text-center'
           >About Me</h1>
@@ -24,7 +25,12 @@ export default function AboutThis(){
             <h1
             class="col-span-5"
             > Download my Resume!</h1>
-            <a href="resume-v4.pdf" target="_blank" class="bg-blue-400 p-4 rounded-xl">Download</a>
+            <Link
+              className="bg-blue-400 rounded-2xl p-4"
+              to="/Resume"
+              >
+                View Resume
+              </Link>
           </div>
         </div>
       </body>
