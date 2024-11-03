@@ -18,7 +18,6 @@ function App() {
       <Route path="/Projects/GoodreadsClone" element={<GoodreadsClone />}/>
       <Route path="/Projects/FlightPlanner" element={<FlightPlanner />}/>
       <Route path="/Resume" element={<Resume/>}/>
-      <Route path="/*" element={<NotFoundPage />} />
     </Routes>
   );
 }
