@@ -21,7 +21,7 @@ export default function AboutThis(){
         </div>
         <div class="row-span-2 mt-6">
           <div
-          class="ml-16 mr-16 bg-slate-700 border-blue-400 border border-2 justify-items-center items-center rounded-lg text-4xl font-sans text-white border-white h-24 grid grid-cols-7 align-middle">
+          class="ml-16 mr-16 bg-slate-700 border border-blue-400 border-2 justify-items-center items-center rounded-lg text-4xl font-sans text-white h-24 grid grid-cols-7 align-middle">
             <h1
             class="col-span-5"
             > Download my Resume!</h1>
