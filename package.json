@@ -1,5 +1,6 @@
 {
   "name": "codecademy-app",
+  "homepage": "https://chris-palmer.me",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
