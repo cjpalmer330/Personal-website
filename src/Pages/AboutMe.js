@@ -8,7 +8,7 @@ export default function AboutThis(){
     <div className="Project h-screen w-full">
       <SocialBar />
       <body className="overflow-hidden h-full bg-slate-900 text-white font-mono grid-rows-2">
-        <div className="p-4 border border-blue-400 shadow-2xl shadow-slate-500 bg-slate-700 rounded-3xl mt-16 ml-40 mr-40 min-w-96 w-auto row-span-1">
+        <div className="p-4 border border-blue-400 shadow-2xl shadow-blue-500/80 bg-slate-700 rounded-3xl mt-16 ml-40 mr-40 min-w-96 w-auto row-span-1">
           <h1 className='text-3xl font-bold text-blue-300 text-center'
           >About Me</h1>
           <h3 className='text-xl text-white text-left w-min-full'>

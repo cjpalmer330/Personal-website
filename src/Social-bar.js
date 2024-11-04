@@ -1,7 +1,7 @@
 import React from 'react'
 import githubLogo from './pictures/github-mark-white.svg';
 import linkedInLogo from './pictures/linkedIn.svg';
-import codeWarsLogo from './pictures/codeWars.svg';
+import codeWarsLogo from './pictures/codewarsLogo.png';
 import { Link } from "react-router-dom";
 
 export default function SocialBar(){
@@ -9,11 +9,11 @@ export default function SocialBar(){
     <div>
       <header className="width-max text-xl bg-slate-900 overflow-hidden grid grid-rows-2 pr-4">
       <div className="z-40">
-        <div className="w-screen">
+        <div className="w-full">
           <h3 className='absolute text-center font-mono font-bold p-8 whitespace-nowrap text-blue-300 text-5xl align-middle'>Christopher Palmer</h3>
         </div>
-        <div alt="social Links" className="w-screen pl-2 py-2 pr-4 inset-0">
-        <div className=' float-right p-2'>
+        <div alt="social Links" className="w-full pt-2 inset-0">
+        <div className=' float-right p-2 pb-4'>
             <a
               href="https://www.codewars.com/users/cjpalmer330"
               target="_blank"
