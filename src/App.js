@@ -17,7 +17,7 @@ function App() {
       <Route path="/Projects/PersonalWebsite" element={<AboutThis />}/>
       <Route path="/Projects/GoodreadsClone" element={<GoodreadsClone />}/>
       <Route path="/Projects/FlightPlanner" element={<FlightPlanner />}/>
-      <Route path="/Resume" element={<Resume/>}/>
+      <Route path="/resume-v4.pdf" element={<Resume/>}/>
     </Routes>
   );
 }

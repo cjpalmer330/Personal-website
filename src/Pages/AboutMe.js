@@ -27,7 +27,7 @@ export default function AboutThis(){
             > Download my Resume!</h1>
             <Link
               className="bg-blue-400 rounded-2xl p-4"
-              to="/Resume"
+              to="/resume-v4.pdf"
               >
                 View Resume
               </Link>
