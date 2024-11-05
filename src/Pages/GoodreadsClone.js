@@ -11,7 +11,7 @@ export default function GoodreadsClone(){
           <h1 className='text-3xl font-bold text-fuchsia-200 text-center'
           >GoodreadsClone</h1>
           <h3 className='text-xl text-white text-left'>
-            Example text
+            Still a work in progress Project
           </h3>
         </div>
       </body>

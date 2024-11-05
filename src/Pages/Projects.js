@@ -6,10 +6,10 @@ import ContactBar from '../Contact-bar';
 //window.addEventListener('mousemove', e)
 export default function Projects() {
   return (
-    <div className="Project h-screen">
+    <div className="Project min-h-screen">
       <SocialBar />
       
-      <body className="overflow-hidden h-screen bg-slate-900 text-white font-mono">
+      <body className="overflow-hidden min-h-screen bg-slate-900 text-white font-mono">
         <div
         class="z-0">
           <div aria-hidden="true" className=" absolute inset-y-64 inset-x-56 w-32 h-[900px] rounded-full rotate-45 bg-gradient-to-b from-pink-600 to-blue-600 m-16 blur-2xl">
@@ -17,7 +17,7 @@ export default function Projects() {
           <div aria-hidden="true" className="absolute inset-y-96 inset-x-[550px] w-32 blur-2xl h-[700px]   rotate-45 rounded-full bg-gradient-to-b from-pink-600 to-blue-600 z-0 m-16">
           </div>
         </div>
-        <div className="p-12 grid grid-rows-3 grid-cols-2 gap-16 text-center text-2xl opacity-90 h-[800px]">
+        <div className="p-8 grid grid-rows-3 grid-cols-2 gap-16 text-center text-2xl opacity-90 min-h-[500px]">
           <Link
             className="pt-2 pb-2 pl-4 pr-4 border shadow-2xl hover:scale-105 shadow-blue-500/70 rounded-3xl transition-all duration-300 bg-slate-700 border-blue-400"
             to="/Projects/PersonalWebsite"
@@ -66,16 +66,18 @@ export default function Projects() {
             </h1>
           </Link>
         </div>
-        <div>
-          <div class="ml-[1200px] border border-blue-400 grid grid-rows-2 w-[1200px] rounded-xl bg-slate-700 shadow-lg shadow-blue-500/70 p-8">
-            <h1 class="text-center text-blue-300">Technologies Used</h1>
-            <p>
-              Libraries / Frameworks: React, Vue, TailwindCSS, chartJS, nuxt, vite
-              <br></br>
-              Languages: Java, Python, JS, TS, C, Rust, 
-              <br></br>
-              Currently Learning: Rust
-            </p>
+        <div  class="grid grid-cols-5 gap-0">
+          <div class="border border-blue-400 rounded-xl bg-slate-700 shadow-lg shadow-blue-500/70 p-8 gap-0 col-end-5 min-w-[400px] col-start-3 ">
+            <div class="grid grid-rows-2">
+              <h1 class="text-center text-blue-300">Technologies Used</h1>
+              <p>
+                Libraries / Frameworks: React, Vue, TailwindCSS, chartJS, nuxt, vite
+                <br></br>
+                Languages: Java, Python, JS, TS, C, Rust, 
+                <br></br>
+                Currently Learning: Rust
+              </p>
+            </div>
           </div>
         </div>
       </body>

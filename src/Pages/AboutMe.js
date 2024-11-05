@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 
 export default function AboutThis(){
   return (
-    <div className="Project h-screen w-full">
+    <div className="min-h-screen w-full min-w-[550px] justify-items-center">
       <SocialBar />
-      <body className="overflow-hidden h-full bg-slate-900 text-white font-mono grid-rows-2">
-        <div className="p-4 border border-blue-400 shadow-2xl shadow-blue-500/80 bg-slate-700 rounded-3xl mt-16 ml-40 mr-40 min-w-96 w-auto row-span-1">
+      <body className="overflow-hidden bg-slate-900 text-white font-mono grid-rows-2 justify-items-center">
+        <div className="p-4 border border-blue-400 shadow-2xl shadow-blue-500/80 bg-slate-700 rounded-3xl mt-16 row-span-1 ml-4 mr-4 min-w-[500px] max-w-[1000px]">
           <h1 className='text-3xl font-bold text-blue-300 text-center'
           >About Me</h1>
           <h3 className='text-xl text-white text-left w-min-full'>
@@ -21,12 +21,12 @@ export default function AboutThis(){
         </div>
         <div class="row-span-2 mt-6">
           <div
-          class="ml-16 mr-16 bg-slate-700 border border-blue-400 border-2 justify-items-center items-center rounded-lg text-4xl font-sans text-white h-24 grid grid-cols-7 align-middle">
+          class="ml-16 mr-16 bg-slate-700 border-blue-400 border-2 justify-items-center items-center rounded-lg text-4xl font-sans text-white h-24 grid grid-cols-3 align-middle">
             <h1
-            class="col-span-5"
+            class="col-span-2 m-4"
             > Download my Resume!</h1>
             <Link
-              className="bg-blue-400 rounded-2xl p-4"
+              className="bg-blue-400 rounded-2xl p-4 w-[250px] m-4"
               to="/resume-v4.pdf"
               >
                 View Resume

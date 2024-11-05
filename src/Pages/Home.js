@@ -9,9 +9,9 @@ export default function Home(){
         <div className="p-36 grid grid-rows-2 grid-cols-2 gap-24">
           <div className='flex justify-center items-center'>
             {/* Profile Picture*/}
-            <img alt="Picture of Me" className="shadow-2xl shadow-slate-200/40 rounded-3xl align-middle justify-center min-w-[80px] h-[600px] w-[600px]" src={profilePicture}/>
+            <img alt="Picture of Me" className="shadow-2xl shadow-slate-200/40 rounded-3xl align-middle justify-center min-w-[400px] min-h-[400px] h-[600px] w-[600px] object-contain" src={profilePicture}/>
           </div>
-          <div className="shadow-2xl shadow-blue-500 rounded-xl p-12 bg-slate-700 border border-blue-400 border-1">
+          <div className="shadow-2xl shadow-blue-500 rounded-xl p-12 bg-slate-700 border border-blue-400 border-1 min-w-[350px]">
             <h3 className='font-mono text-blue-300 font-bold text-center text-2xl'> Welcome to my Website!</h3>
             <h3 className="text-xl">
             &lt;-- I'm this guy!<br></br>
@@ -21,8 +21,8 @@ export default function Home(){
           <div className='font-mono text-white font-bold text-xl flex justify-center'>
             Email me below for a copy of my resume
           </div>
-          <div className="shadow-2xl shadow-blue-500 bg-slate-700 border border-blue-400 border-1 rounded-xl p-12">
-            <h3 className='font-mono text-blue-300 font-bold text-center text-2xl'>
+          <div className="shadow-2xl shadow-blue-500 bg-slate-700 border border-blue-400 border-1 rounded-xl p-12 min-w-[350px]">
+            <h3 className='font-mono text-blue-300 font-bold text-center text-2xl '>
               Career Information
             </h3>
             <a
