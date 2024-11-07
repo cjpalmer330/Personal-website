@@ -1,13 +1,13 @@
 import React from 'react';
 import SocialBar from '../Social-bar';
 import ContactBar from '../Contact-bar';
-import { Link } from "react-router-dom";
+
 
 export default function AboutThis(){
   return (
-    <div className="min-h-screen w-full min-w-[550px] justify-items-center">
+    <div className="h-screen w-full min-w-[550px] justify-items-center">
       <SocialBar />
-      <body className="overflow-hidden bg-slate-900 text-white font-mono grid-rows-2 justify-items-center">
+      <body className="overflow-hidden bg-slate-900 text-white font-mono grid-rows-2 justify-items-center w-full h-screen">
         <div className="p-4 border border-blue-400 shadow-2xl shadow-blue-500/80 bg-slate-700 rounded-3xl mt-16 row-span-1 ml-4 mr-4 min-w-[500px] max-w-[1000px]">
           <h1 className='text-3xl font-bold text-blue-300 text-center'
           >About Me</h1>
@@ -18,20 +18,6 @@ export default function AboutThis(){
             <br/>
             &emsp;&emsp;&emsp;After a year at Wal-Mart I decided it was time to go back to school and work towards my degree. While working 30-40 hours, I went through the Associate Computer Science Program at Dallas College, graduating in August of 2023, when I transferred to UTD.
           </h3>
-        </div>
-        <div class="row-span-2 mt-6">
-          <div
-          class="ml-16 mr-16 bg-slate-700 border-blue-400 border-2 justify-items-center items-center rounded-lg text-4xl font-sans text-white h-24 grid grid-cols-3 align-middle">
-            <h1
-            class="col-span-2 m-4"
-            > Download my Resume!</h1>
-            <Link
-              className="bg-blue-400 rounded-2xl p-4 w-[250px] m-4"
-              to="/resume-v4.pdf"
-              >
-                View Resume
-              </Link>
-          </div>
         </div>
       </body>
       <ContactBar />

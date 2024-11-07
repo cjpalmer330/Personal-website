@@ -61,7 +61,7 @@ export default function Projects() {
               Goodreads Clone
             </h3>
             <h1
-            class="text-slate-200 font-sans">
+            class="text-slate-200 font-sans text-2xl">
               Started over a year ago and left un touched for a while before I picked it back up, my goodreads clone was a tool that I wanted. Much like most of my project ideas, they spawn out of necessity. I wanted a form of goodreads that showed me more statistics and information about the books I read. Simply as a curiosity exercise.
             </h1>
           </Link>
@@ -69,13 +69,13 @@ export default function Projects() {
         <div  class="grid grid-cols-5 gap-0">
           <div class="border border-blue-400 rounded-xl bg-slate-700 shadow-lg shadow-blue-500/70 p-8 gap-0 col-end-5 min-w-[400px] col-start-3 ">
             <div class="grid grid-rows-2">
-              <h1 class="text-center text-blue-300">Technologies Used</h1>
-              <p>
+              <h1 class="text-center text-3xl font-bold font-sans text-blue-300">Technologies Used</h1>
+              <p class="text-xl font-sans text-slate-200">
                 Libraries / Frameworks: React, Vue, TailwindCSS, chartJS, nuxt, vite
                 <br></br>
-                Languages: Java, Python, JS, TS, C, Rust, 
+                Languages Used: Java, Python, JS, TS, C, SQL 
                 <br></br>
-                Currently Learning: Rust
+                Currently Learning: Rust, GO
               </p>
             </div>
           </div>
