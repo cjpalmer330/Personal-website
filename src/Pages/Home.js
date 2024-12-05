@@ -18,7 +18,7 @@ export default function Home(){
             </h3>
           </div>
           <div className='font-mono text-white font-bold text-xl flex justify-center'>
-            Email me below for a copy of my resume
+            Resume can be found in the footer
           </div>
           <div className="shadow-2xl shadow-blue-500 bg-gray-700 border border-blue-400 border-1 rounded-xl p-12 min-w-[450px]">
             <h3 className='font-mono text-blue-300 font-bold text-center text-2xl '>

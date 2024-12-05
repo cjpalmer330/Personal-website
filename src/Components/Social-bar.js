@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export default function SocialBar(){
   return(
     <div className="h-56">
-      <header className="w-screen text-xl bg-gray-900 overflow-hidden grid grid-rows-2 pr-4">
+      <header className="w-full text-xl bg-gray-900 overflow-hidden grid grid-rows-2 pr-4">
       <div className="z-40">
         <div className="w-full">
           <h3 className='absolute text-center font-mono font-bold p-4 whitespace-nowrap text-blue-300 text-5xl align-middle'>Christopher Palmer</h3>
