@@ -9,7 +9,7 @@ export default function ContactBar(){
         href="mailto:cjpalmer330@gmail.com"
         target="_blank"
         rel="noreferrer"
-        >cjpalmer330 @gmail.com</a>
+        >cjpalmer330@gmail.com</a>
         <a 
         href="https://github.com/cjpalmer330"
         target="_blank"
