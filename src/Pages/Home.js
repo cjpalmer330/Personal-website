@@ -9,7 +9,7 @@ export default function Home(){
         <div className="lg:p-36 md:p-24 sm:p-8 xs:p-4 grid xl:grid-rows-2 xl:grid-cols-2 gap-24">
           <div className='flex justify-center items-center xl:h-96'>
             {/* Profile Picture*/}
-            <img alt="Profile" className="shadow-2xl shadow-gray-200/40 rounded-3xl align-middle justify-center h-96 object-contain" src={profilePicture}/>
+            <img alt="Profile" className="shadow-2xl shadow-blue-500 rounded-3xl align-middle justify-center h-96 object-contain" src={profilePicture}/>
           </div>
           <div className="shadow-2xl shadow-blue-500 rounded-xl p-12 bg-gray-700 border border-blue-400 border-1 min-w-[350px]">
             <h3 className='font-mono text-blue-300 font-bold text-center text-2xl'> Welcome to my Website!</h3>
