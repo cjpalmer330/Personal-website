@@ -6,7 +6,7 @@ import SoloCard from '../Components/Solo-Card';
 
 export default function AboutThis(){
   return (
-    <div className="h-screen w-full min-w-[550px] justify-items-center">
+    <div className="h-screen">
       <SocialBar />
       <div className="overflow-hidden bg-gray-900 text-white font-mono grid-rows-2 justify-items-center w-full h-screen">
         <SoloCard Title="About Me" blurb="&emsp;&emsp;&emsp;Born in 2002, I was brought into this world at the peak of the information age. Luckily, I have a brother who is 12 years older than me, which means that when he was going off to college, I was in my prime curiosity years. Michael would come home during winter / spring break and show me what he was learning in his computer engineering degree plan. I was hooked from that start. I was fascinated that he was able to make these maze solvers, pool games, and geometry tools, all from just typing words on his cracked laptop.

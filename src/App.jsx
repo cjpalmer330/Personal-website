@@ -8,6 +8,7 @@ import Home from './Pages/Home';
 import AboutMe from './Pages/AboutMe';
 import FlightPlanner from './Pages/FlightPlanner';
 import Resume from './Pages/resume';
+import WebScraper from './Pages/WebScraper';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path="/Projects/GoodreadsClone" element={<GoodreadsClone />}/>
       <Route path="/Projects/FlightPlanner" element={<FlightPlanner />}/>
       <Route path="/resume-v4.pdf" element={<Resume/>}/>
+      <Route path="/Projects/WebScraper" element={<WebScraper/>}/>
       <Route path="/*" element={<NotFoundPage />} />
     </Routes>
     </div>
