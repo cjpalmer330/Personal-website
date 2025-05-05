@@ -1,8 +1,3 @@
-<script setup lang="ts">
-  import ProjectCard from '../components/Project-Card.vue';
-  import SoloCard from '../components/Solo-Card.vue';
-</script>
-
 <template>
   <!-- Main Homepage Content-->
   <div class=" z-10 bg-gray-900 text-white font-mono w-full min-h-screen">

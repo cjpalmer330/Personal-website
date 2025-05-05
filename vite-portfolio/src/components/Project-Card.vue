@@ -4,11 +4,6 @@
     'Title': String,
     'blurb': String
   })
-
-  function getImageUrl() {
-  // This path must be correct for your file
-  return `../assets/icons/`;
-}
 </script>
 
 <template>
