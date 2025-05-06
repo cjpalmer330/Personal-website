@@ -9,7 +9,6 @@ export default defineConfig({
     tailwindcss()
   ],
   build:{
-    rollupOptions:{
-    }
+    outDir: 'dist',
   }
 })

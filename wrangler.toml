@@ -1,0 +1,7 @@
+name = "work-portfolio"
+account_id = "1cf76132f40a4889359e84746a1610ac"
+workers_dev = true
+compatibility_date = "2024-05-06"
+
+[assets]
+directory = "./dist"
