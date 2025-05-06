@@ -1,6 +1,12 @@
 <script>
   import SoloCard from '../components/Solo-Card.vue';
 
+  export default {
+    name: 'AboutThis',
+    components: {
+      SoloCard
+    }
+  }
 </script>
 <template>
   <div className="h-screen bg-gray-900">

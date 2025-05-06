@@ -1,4 +1,5 @@
-<script>
+<script setup lang="ts">
+import { RouterLink } from 'vue-router';
 
 </script>
 
@@ -15,7 +16,7 @@
       <div alt="social Links" class="float-right grid grid-cols-2 gap-4 top-4">
         <div class="w-24">
           <a
-          href="https://github.com/cjpalmer330"
+          to="https://github.com/cjpalmer330"
           target="_blank"
           rel="noopener noreferrer"
           class="shadow-lg shadow-blue-500 hover:shadow-blue-800 hover:shadow-xl hover:scale-105 transition-all duration-300 rounded-full"
@@ -41,29 +42,29 @@
     <nav className="justify-center grid grid-cols-7 gap-2">
       <ul className='text-center col-start-2 col-span-5 grid grid-cols-4 gap-6 
       items-center'>
-          <a
+          <RouterLink
             class="p-2 text-white text-xl font-Hanuman font-bold rounded-full bg-blue-600 hover:bg-blue-400 transition-all duration-300 shadow-lg shadow-blue-500"
-            href="/"
+            to="/"
             >
               Home
-          </a>
-          <a
+          </RouterLink>
+          <RouterLink
             class="p-2 text-white text-xl font-Hanuman font-bold rounded-full bg-blue-600 hover:bg-blue-400 transition-all duration-300 shadow-lg shadow-blue-500"
-            href="#/AboutMe"
+            to="/AboutMe"
             >About Me
-          </a>
-          <a
+          </RouterLink>
+          <RouterLink
             class="p-2 text-white text-xl font-Hanuman font-bold rounded-full bg-blue-600 hover:bg-blue-400 transition-all duration-300 shadow-lg shadow-blue-500"
-            href="#/Projects"
+            to="/Projects"
             >
               Projects
-          </a>
-          <a
+          </RouterLink>
+          <RouterLink
             class="p-2 text-white text-xl font-Hanuman font-bold rounded-full bg-blue-600 hover:bg-blue-400 transition-all duration-300 shadow-lg shadow-blue-500"
-            href="#/Projects/PersonalWebsite"
+            to="/Projects/PersonalWebsite"
             >
               This Website
-          </a>
+          </RouterLink>
         </ul>
     </nav>
   </header>

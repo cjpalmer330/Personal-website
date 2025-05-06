@@ -1,3 +1,7 @@
+<script setup lang="ts"> 
+  import profilePic from '@/assets/profile.jpg'
+</script>
+
 <template>
   <!-- Main Homepage Content-->
   <div class=" z-10 bg-gray-900 text-white font-mono w-full min-h-screen">
@@ -8,7 +12,7 @@
         <h1 class="m-2 font-Hanuman font-bold text-3xl text-center text-blue-300">Welcome to my Site</h1>
         <div class="row-start-2 row-span-4 grid grid-cols-2 justify-items-center">
           <h2 class="ml-6 mr-6 font-Hanuman text-lg text-left  text-blue-200 font-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus recusandae, blanditiis exercitationem explicabo expedita odio. Nisi odit cumque error ipsa commodi illum sint minima. Natus qui repellat commodi rem praesentium.</h2>
-          <img class="rounded-2xl h-[250px] m-2" src="`../assets/profile.jpg`" alt="Headshot photo"></img>
+          <img class="rounded-2xl h-[250px] m-2" :src="profilePic" alt="Headshot photo"></img>
         </div>
         
       </div>
