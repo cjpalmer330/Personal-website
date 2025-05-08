@@ -4,11 +4,11 @@ import { RouterLink } from 'vue-router';
 </script>
 
 <template>
-  <header className=" h-56 w-full text-xl bg-gradient-to-b to-gray-900 to from-blue-800  overflow-hidden grid grid-rows-2 pr-4">
+  <header className="h-56 w-full text-xl bg-gradient-to-b to-gray-900 to from-blue-800  overflow-hidden grid grid-rows-2 pr-4">
     <!-- Name and social links-->
-    <div class="relative z-40 w-full h-24 p-4">
+    <div class="relative z-40 w-full h-36 p-4">
       <!-- Name -->
-      <div class="absolute w-full">
+      <div class="absolute w-96">
         <h3 class='text-left font-mono font-bold p-4 whitespace-nowrap text-blue-300 text-5xl align-middle'>Chris Palmer</h3>
       </div>
 
@@ -16,12 +16,12 @@ import { RouterLink } from 'vue-router';
       <div alt="social Links" class="float-right grid grid-cols-2 gap-4 top-4">
         <div class="w-24">
           <a
-          to="https://github.com/cjpalmer330"
+          href="https://github.com/cjpalmer330"
           target="_blank"
           rel="noopener noreferrer"
-          class="shadow-lg shadow-blue-500 hover:shadow-blue-800 hover:shadow-xl hover:scale-105 transition-all duration-300 rounded-full"
+          class="w-24 rounded-full"
           >
-            <img alt="Github Logo" src='../assets/github-mark-white.svg' class="w-24"/>
+            <img alt="Github Logo" src='../assets/github-mark-white.svg' class="hover:shadow-blue-800 hover:shadow-xl hover:scale-105 transition-all duration-300 w-24 shadow-lg shadow-blue-500 rounded-full"/>
           </a>
         </div>
 
@@ -30,9 +30,10 @@ import { RouterLink } from 'vue-router';
             href="https://www.linkedin.com/in/christopher-palmer-bb48a6253/"
             target="_blank"
             rel="noopener noreferrer"
-            class="hover:shadow-blue-800 hover:shadow-xl hover:scale-105 transition-all duration-300 w-24 shadow-lg shadow-blue-500"
+            class=" w-24 rounded-xl"
           >
-            <img alt="LinkedIn Logo"src='../assets/linkedIn.svg' class="w-24"/>
+            <img alt="LinkedIn Logo"src='../assets/linkedIn.svg'
+            class="hover:shadow-blue-800 hover:shadow-xl hover:scale-105 transition-all duration-300 shadow-lg shadow-blue-500 rounded-xl"/>
           </a>
         </div>
       </div>

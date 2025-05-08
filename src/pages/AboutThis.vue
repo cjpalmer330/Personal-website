@@ -25,7 +25,7 @@
           <!-- Second Card -->
           <div class="overflow-hidden h-60 bg-gray-800/70 text-white font-mono justify-items-center border-2 border-blue-500 shadow-xl shadow-blue-600 p-4 rounded-2xl mx-40 grid grid-rows-5 col-span-3">
             <h1 class="text-2xl font-bold text-blue-300   font-sans">A glimpse into me!</h1>
-            <h2 class="text-xl font-sans text-blue-200    font-bold grid-start-2 row-span-4">Lorem ipsum   dolor sit amet  consectetur adipisicing elit. At     eius perspiciatis   unde officia sequi repudiandae    modi accusamus   aspernatur. Quis molestias fuga    eos saepe soluta  sint, unde adipisci perferendis    ex nemo.</h2>
+            <h2 class="text-xl font-sans text-blue-200    font-bold grid-start-2 row-span-4">Hopefully, this website gives whoever is interested an insight not only into who i am, but what i can do. I have limited in-depth technological knowledge but the interest in learning, and the determination to ensure I have a successfull future.</h2>
           </div>
         </div>        
       

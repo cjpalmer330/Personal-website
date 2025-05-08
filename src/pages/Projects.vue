@@ -19,11 +19,11 @@
     <div class="h-24"> </div>
     <!--Project Cards-->
     <div class="relative mx-40 gap-y-20 h-full grid grid-rows-2 grid-cols-2 gap-16 text-center text-2xl min-h-[500px]">
-      <ProjectCard Title="Portfolio" blurb="This website is one of my own creation! Starting out as a learning project during Thanksgiving break of 2024, I quickly realized the expansion owhich I could utilize in my job search!" link="Projects/PersonalWebsite" filename="profile.jpg"/>
+      <ProjectCard Title="Portfolio" blurb="This website is one of my own creation! Starting out as a learning project during Thanksgiving break of 2024, I quickly realized the expansion of which I could utilize in my job search!" link="Projects/PersonalWebsite" filename="profile.jpg"/>
       
-      <ProjectCard Title="Attendance Tracker"blurb="For my senior capstone project, I, and group of three others, worked with a professor tcreate an Attendance tracker that met to hispecifications to streamline his class attendanctracking. Click here to find out more!" link="Projects/AttendanceApp"/>
+      <ProjectCard Title="Attendance Tracker" blurb="For my senior capstone project, I, and group of three others, worked with a professor tcreate an Attendance tracker that met to his specifications to streamline his class attendance tracking. Click here to find out more!" link="Projects/AttendanceApp" filename="prof-app-login.png"/>
 
-      <ProjectCard Title="Learning / Minor" Projectsblurb="During my time both at Dallas College and UTD, I have just begun to touch my toes in to thworld of software development. Some of thalearning has come in the classroom, and some ithe form of projects, many too small to ever sethe light of day. However, I think its great futo look back on some of what I was able taccomplish!" link="/Projects/MiscProjects" filename="orbitPreview"/>
+      <ProjectCard Title="Learning / Minor Projects" blurb="During my time both at Dallas College and UTD, I have just begun to touch my toes in to thworld of software development. Some of that learning has come in the classroom, and some ithe form of projects, many too small to ever see the light of day. However, I think its great to look back on some of what I was able to accomplish!" link="Projects/MiscProjects" filename="Orbit-Preview.png"/>
     </div>
     <!--Space Div-->
     <div class="h-24"> </div>
