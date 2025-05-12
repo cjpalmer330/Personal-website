@@ -212,6 +212,9 @@
   .top-16 {
     top: calc(var(--spacing) * 16);
   }
+  .bottom-2 {
+    bottom: calc(var(--spacing) * 2);
+  }
   .z-0 {
     z-index: 0;
   }
@@ -257,6 +260,12 @@
   .row-span-1 {
     grid-row: span 1 / span 1;
   }
+  .row-span-2 {
+    grid-row: span 2 / span 2;
+  }
+  .row-span-3 {
+    grid-row: span 3 / span 3;
+  }
   .row-span-4 {
     grid-row: span 4 / span 4;
   }
@@ -266,6 +275,9 @@
   .row-start-2 {
     grid-row-start: 2;
   }
+  .row-start-3 {
+    grid-row-start: 3;
+  }
   .float-right {
     float: right;
   }
@@ -274,6 +286,21 @@
   }
   .m-8 {
     margin: calc(var(--spacing) * 8);
+  }
+  .mx-4 {
+    margin-inline: calc(var(--spacing) * 4);
+  }
+  .mx-6 {
+    margin-inline: calc(var(--spacing) * 6);
+  }
+  .mx-10 {
+    margin-inline: calc(var(--spacing) * 10);
+  }
+  .mx-14 {
+    margin-inline: calc(var(--spacing) * 14);
+  }
+  .mx-20 {
+    margin-inline: calc(var(--spacing) * 20);
   }
   .mx-40 {
     margin-inline: calc(var(--spacing) * 40);
@@ -313,6 +340,9 @@
   }
   .h-64 {
     height: calc(var(--spacing) * 64);
+  }
+  .h-72 {
+    height: calc(var(--spacing) * 72);
   }
   .h-\[200px\] {
     height: 200px;
@@ -368,6 +398,9 @@
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
   }
+  .list-disc {
+    list-style-type: disc;
+  }
   .grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -385,6 +418,9 @@
   }
   .grid-rows-2 {
     grid-template-rows: repeat(2, minmax(0, 1fr));
+  }
+  .grid-rows-3 {
+    grid-template-rows: repeat(3, minmax(0, 1fr));
   }
   .grid-rows-4 {
     grid-template-rows: repeat(4, minmax(0, 1fr));
@@ -409,6 +445,9 @@
   }
   .gap-4 {
     gap: calc(var(--spacing) * 4);
+  }
+  .gap-5 {
+    gap: calc(var(--spacing) * 5);
   }
   .gap-6 {
     gap: calc(var(--spacing) * 6);
@@ -568,6 +607,9 @@
   }
   .text-white {
     color: var(--color-white);
+  }
+  .underline {
+    text-decoration-line: underline;
   }
   .opacity-70 {
     opacity: 70%;
