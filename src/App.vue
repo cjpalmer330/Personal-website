@@ -19,7 +19,7 @@
   console.log('Current View:', currentView.value)
 </script>
 
-<template>
+<template class="min-w-[500px]">
   <nav>
     <SocialBar />
   </nav>

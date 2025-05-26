@@ -18,19 +18,19 @@
     <!-- Space div-->
     <div class="h-24"> </div>
     <!--Project Cards-->
-    <div class="relative mx-40 gap-y-20 h-full grid grid-rows-2 grid-cols-2 gap-16 text-center text-2xl min-h-[500px]">
+    <div class="relative mx-10 md:mx-20 gap-y-8 md:gap-y-16 h-full grid lg:grid-rows-2 lg:grid-cols-2 grid-cols-1 grid-rows-3 gap-16">
       <ProjectCard Title="Portfolio" blurb="This website is one of my own creation! Starting out as a learning project during Thanksgiving break of 2024, I quickly realized the expansion of which I could utilize in my job search!" link="Projects/PersonalWebsite" filename="profile.jpg"/>
       
-      <ProjectCard Title="Attendance Tracker" blurb="For my senior capstone project, I, and group of three others, worked with a professor to create an Attendance tracker that met to his specifications, streamlining his class attendance taking process. Click here to find out more!" link="Projects/AttendanceApp" filename="prof-app-login.png"/>
+      <ProjectCard Title="Attendance Tracker" blurb="For my senior capstone project, I, and group of three others, worked with a professor to create an Attendance tracker that met to his specifications, streamlining his class attendance taking process." link="Projects/AttendanceApp" filename="prof-app-login.png"/>
 
       <ProjectCard Title="Learning / Minor Projects" blurb="During my time both at Dallas College and UTD, I have just begun to touch my toes in to the world of software development. Some of that learning has come in the classroom, and some in the form of projects, many too small to ever see the light of day. However, I think its great to look back on some of what I was able to accomplish!" link="Projects/MiscProjects" filename="Orbit-Preview.png"/>
     </div>
     <!--Space Div-->
-    <div class="h-24"> </div>
+    <div class="h-4 sm:h-12 md:h-24"> </div>
     <div  className="top-16 relative grid grid-cols-5 gap-0">
       <div class="col-start-3 col-span-2 bg-gray-800/70 border-2 border-blue-500 shadow-xl shadow-blue-600 p-4 font-sans h-full rounded-2xl">
-        <h1 className="m-2 font-bold text-3xl text-center text-blue-300">Technologies Used</h1>
-        <h2 className="ml-6 mr-6 text-xl text-left row-span-4 text-blue-200 font-bold">Libraries / Frameworks: React, Vue, TailwindCSS, chartJS, nuxt, vite, Blazor
+        <h1 className="m-2 font-bold text-lg sm:text-2xl md:text-3xl text-center text-blue-300">Technologies Used</h1>
+        <h2 className="ml-6 mr-6 text-sm md:text-md lg:text-xl text-left row-span-4 text-blue-200 font-bold">Libraries / Frameworks: React, Vue, TailwindCSS, chartJS, nuxt, vite, Blazor
         <br></br>Languages Used: Java, Python, JS, SQL,C# 
         <br/>Currently Learning: Rust, GO</h2>
       </div>

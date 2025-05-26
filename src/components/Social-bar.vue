@@ -4,12 +4,12 @@ import { RouterLink } from 'vue-router';
 </script>
 
 <template>
-  <header className="h-56 w-full text-xl bg-gradient-to-b to-gray-900 to from-blue-800  overflow-hidden grid grid-rows-2 pr-4">
+  <header className="h-56 w-full text-xl bg-gradient-to-b to-gray-900 to from-blue-800  overflow-hidden grid grid-rows-2 pr-4 min-w-[500px]">
     <!-- Name and social links-->
     <div class="relative z-40 w-full h-36 p-4">
       <!-- Name -->
       <div class="absolute w-96">
-        <h3 class='text-left font-mono font-bold p-4 whitespace-nowrap text-blue-300 text-5xl align-middle'>Chris Palmer</h3>
+        <h3 class='text-left font-mono font-bold p-4 whitespace-nowrap text-blue-300 text-5xl align-middle invisible sm:visible'>Chris Palmer</h3>
       </div>
 
       <!-- Top Bar Social Links-->
@@ -40,8 +40,8 @@ import { RouterLink } from 'vue-router';
     </div>
 
     <!-- Page Navigation-->
-    <nav className="justify-center grid grid-cols-7 gap-2">
-      <ul className='text-center col-start-2 col-span-5 grid grid-cols-4 gap-6 
+    <nav class="justify-center grid grid-cols-9 gap-2">
+      <ul className='text-center col-start-2 col-span-7 grid grid-cols-4 gap-6 
       items-center'>
           <RouterLink
             class="p-2 text-white text-xl font-Hanuman font-bold rounded-full bg-blue-600 hover:bg-blue-400 transition-all duration-300 shadow-lg shadow-blue-500"
