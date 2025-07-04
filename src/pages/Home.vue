@@ -4,7 +4,7 @@
 
 <template>
   <!-- Main Homepage Content-->
-  <div class=" z-10 bg-gray-900 text-white font-mono w-full min-h-screen min-w-[500px]">
+  <div class=" z-10 bg-gray-900 text-white font-mono w-full min-w-[500px]">
     <!-- Space div-->
     <div class="h-24"> </div>
     <!-- Background Stars-->
@@ -28,7 +28,12 @@
         
       </div>
       <!--Row 2-->
-      <div class="rounded-3xl bg-gray-800/70 border-2 border-blue-500 shadow-xl shadow-blue-600 p-4 h-64 md:col-start-1 md:col-span-3">work in progress
+      <div class="rounded-3xl bg-gray-800/70 border-2 border-blue-500 shadow-xl shadow-blue-600 p-4 h-64 md:col-start-1 md:col-span-3 grid grid-cols-3 gap-4">
+        <a
+        href="https://www.credly.com/badges/ecda9def-32d3-4f52-a928-d7adf5d75498/public_url" target="_blank" rel="noopener noreferrer" class="flex items-center">
+          <img src="../assets/comptia-a-ce-certification.1.png"  alt="CompTIA A+ Certification Badge" class="w-full"/>
+        </a>
+        <h1 class="col-span-2 col-start-2 text-blue-200 font-bold text-lg">I earned my CompTIA A+ Certification in July of 2025! You can click the logo to the left to view my certification!</h1>
       </div>
       <div class="rounded-3xl bg-gray-800/70 border-2 border-blue-500 shadow-xl shadow-blue-600 p-4 font-sans md:col-start-4 md:col-span-6 h-64">work in progress</div>
     </div>
