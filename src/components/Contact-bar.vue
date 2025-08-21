@@ -25,7 +25,7 @@
       </a>
       <a
         class="p-2 text-white text-xl font-Hanuman font-bold rounded-full bg-blue-600 hover:bg-blue-400 transition-all duration-300 shadow-lg shadow-blue-500"
-        href="https://drive.google.com/file/d/15nbwR9GvRs-Z_8qcXlYGZLJ3aYfqKzX_/view?usp=drive_link"
+        href="https://drive.google.com/file/d/1j4yOUOGva3VeyGxIeyjRWQUxX-UEeYz5/view?usp=sharing"
         target="_blank"
         >Resume
         </a>
