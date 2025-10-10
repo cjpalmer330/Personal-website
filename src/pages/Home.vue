@@ -35,7 +35,9 @@
         </a>
         <h1 class="col-span-2 col-start-2 text-blue-200 font-bold text-lg">I earned my CompTIA A+ Certification in July of 2025! You can click the logo to the left to view my certification!</h1>
       </div>
-      <div class="rounded-3xl bg-gray-800/70 border-2 border-blue-500 shadow-xl shadow-blue-600 p-4 font-sans md:col-start-4 md:col-span-6 h-64">work in progress</div>
+      <div class="rounded-3xl bg-gray-800/70 border-2 border-blue-500 shadow-xl shadow-blue-600 p-4 font-sans md:col-start-4 md:col-span-6 h-64">
+        <h1 class="col-span-2 col-start-2 text-blue-200 font-bold text-lg">At this point in my occupational journey, I am actively working on building up my credentials and skills to raise my job market appeal. Currently this is manifesting as my studies towards the CCNA, which is the certification I plan on completing next, to further myself not only in the IT sector, but also to start specializing in the networking field.</h1>
+      </div>
     </div>
   </div>
 </template>
