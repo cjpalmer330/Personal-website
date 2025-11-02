@@ -19,10 +19,18 @@
   console.log('Current View:', currentView.value)
 </script>
 
-<template class="min-w-[500px]">
-  <nav>
-    <SocialBar />
-  </nav>
-  <RouterView />
+<template class="min-w-[375px]">
+  <!-- Social Bar -->
+  <div class="min-h-screen">
+    <nav>
+      <SocialBar />
+    </nav>
+    <RouterView />
+  </div>
+  
+  <!-- <div class="min-h-screen"> -->
+    
+  <!-- </div> -->
+  <!-- Contact Bar -->
   <ContactBar />
 </template>

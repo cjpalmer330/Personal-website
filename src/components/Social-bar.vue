@@ -4,7 +4,7 @@ import { RouterLink } from 'vue-router';
 </script>
 
 <template>
-  <header className="h-56 w-full text-xl bg-gradient-to-b to-gray-900 to from-blue-800  overflow-hidden grid grid-rows-2 pr-4 min-w-[500px]">
+  <header class="h-64 md-h-56 w-full text-xl bg-gradient-to-b to-gray-900 to from-blue-800  overflow-hidden grid grid-rows-2 pr-4 min-w-[500px] pb-4">
     <!-- Name and social links-->
     <div class="relative z-40 w-full h-36 p-4">
       <!-- Name -->
@@ -41,27 +41,27 @@ import { RouterLink } from 'vue-router';
 
     <!-- Page Navigation-->
     <nav class="justify-center grid grid-cols-9 gap-2">
-      <ul className='text-center col-start-2 col-span-7 grid grid-cols-4 gap-6 
+      <ul className='text-center col-start-2 col-span-7 grid grid-cols-2 grid-rows-2 md:grid-cols-4 md:grid-rows-1 gap-2 md:gap-6 
       items-center'>
           <RouterLink
-            class="p-2 text-white text-xl font-Hanuman font-bold rounded-full bg-blue-600 hover:bg-blue-400 transition-all duration-300 shadow-lg shadow-blue-500"
+            class="p-1 md-p-2 text-white text-lg md-text-xl font-Hanuman font-bold rounded-full bg-blue-600 hover:bg-blue-400 transition-all duration-300 shadow-lg shadow-blue-500"
             to="/"
             >
               Home
           </RouterLink>
           <RouterLink
-            class="p-2 text-white text-xl font-Hanuman font-bold rounded-full bg-blue-600 hover:bg-blue-400 transition-all duration-300 shadow-lg shadow-blue-500"
+            class="p-1 md-p-2 text-white text-lg md-text-xl font-Hanuman font-bold rounded-full bg-blue-600 hover:bg-blue-400 transition-all duration-300 shadow-lg shadow-blue-500"
             to="/AboutMe"
             >About Me
           </RouterLink>
           <RouterLink
-            class="p-2 text-white text-xl font-Hanuman font-bold rounded-full bg-blue-600 hover:bg-blue-400 transition-all duration-300 shadow-lg shadow-blue-500"
+            class="p-1 md-p-2 text-white text-lg md-text-xl font-Hanuman font-bold rounded-full bg-blue-600 hover:bg-blue-400 transition-all duration-300 shadow-lg shadow-blue-500"
             to="/Projects"
             >
               Projects
           </RouterLink>
           <RouterLink
-            class="p-2 text-white text-xl font-Hanuman font-bold rounded-full bg-blue-600 hover:bg-blue-400 transition-all duration-300 shadow-lg shadow-blue-500"
+            class="p-1 md-p-2 text-white text-lg md-text-xl font-Hanuman font-bold rounded-full bg-blue-600 hover:bg-blue-400 transition-all duration-300 shadow-lg shadow-blue-500"
             to="/Projects/PersonalWebsite"
             >
               This Website

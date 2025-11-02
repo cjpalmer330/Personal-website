@@ -1,14 +1,14 @@
 <template>
-  <nav className="h-[200px] w-full grid grid-cols-5 bg-gradient-to-b to-blue-950 from-gray-900 z-20">
-    <div class="col-start-2 col-span-3 text-white text-center grid grid-cols-4 h-24 items-center gap-6">
+  <nav className="min-h-[110px] min-w-[500px] p-0 m-0 grid grid-cols-7 bg-gradient-to-b to-blue-950 from-gray-900">
+    <div class="col-start-2 col-span-5 text-white text-center grid grid-cols-2 h-18 items-center gap-6">
       <a 
-        class="p-2 text-white text-xl font-Hanuman font-bold rounded-full bg-blue-600 hover:bg-blue-400 transition-all duration-300 shadow-lg shadow-blue-500"
+        class="p-2 text-white text-lg md-text-xl font-Hanuman font-bold rounded-full bg-blue-600 hover:bg-blue-400 transition-all duration-300 shadow-lg w-full shadow-blue-500"
         href="mailto:cjpalmer330@gmail.com"
         target="_blank"
         rel="noreferrer"
         >Email</a>
-      <a 
-        class="p-2 text-white text-xl font-Hanuman font-bold rounded-full bg-blue-600 hover:bg-blue-400 transition-all duration-300 shadow-lg shadow-blue-500"
+      <!-- <a 
+        class="p-2 text-white text-lg md-text-xl font-Hanuman font-bold rounded-full bg-blue-600 hover:bg-blue-400 transition-all duration-300 shadow-lg shadow-blue-500"
         href="https://github.com/cjpalmer330"
         target="_blank"
         rel="noreferrer"
@@ -19,12 +19,12 @@
       href="https://www.linkedin.com/in/christopher-palmer-bb48a6253/"
       target="_blank"
       rel="noreferrer"
-      class="p-2 text-white text-xl font-Hanuman font-bold rounded-full bg-blue-600 hover:bg-blue-400 transition-all duration-300 shadow-lg shadow-blue-500"
+      class="p-2 text-white text-lg md-text-xl font-Hanuman font-bold rounded-full bg-blue-600 hover:bg-blue-400 transition-all duration-300 shadow-lg shadow-blue-500"
       >
         LinkedIn
-      </a>
+      </a> -->
       <a
-        class="p-2 text-white text-xl font-Hanuman font-bold rounded-full bg-blue-600 hover:bg-blue-400 transition-all duration-300 shadow-lg shadow-blue-500"
+        class="p-2 text-white text-lg md-text-xl font-Hanuman font-bold rounded-full bg-blue-600 hover:bg-blue-400 transition-all duration-300 shadow-lg shadow-blue-500"
         href="https://drive.google.com/file/d/1j4yOUOGva3VeyGxIeyjRWQUxX-UEeYz5/view?usp=sharing"
         target="_blank"
         >Resume
